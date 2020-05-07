@@ -18,7 +18,7 @@ colorForm.addEventListener('submit', e => {
     }
 })
 
-for (i = 0; i < 2411; i++) {
+for (i = 0; i < 4411; i++) {
     var newPixel = document.createElement('div');
     newPixel.classList.add('pixel');
     newPixel.addEventListener('mouseover', (e) => {
